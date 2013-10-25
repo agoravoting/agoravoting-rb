@@ -1,6 +1,6 @@
 # Agora::Voting::Rb
 
-TODO: Write a gem description
+AgoraVoting API wrapper in Ruby
 
 ## Installation
 
