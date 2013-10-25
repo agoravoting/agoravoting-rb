@@ -1,4 +1,4 @@
-# Agora::Voting::Rb
+# AgoraVoting-rb
 
 AgoraVoting API wrapper in Ruby
 
@@ -6,7 +6,7 @@ AgoraVoting API wrapper in Ruby
 
 Add this line to your application's Gemfile:
 
-    gem 'agora-voting-rb'
+    gem 'agoravoting-rb'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install agora-voting-rb
+    $ gem install agoravoting-rb
 
 ## Usage
 
