@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Agora::Voting::Rb::VERSION
   spec.authors       = ["Raimond Garcia", "Hector Perez"]
   spec.email         = ["hecpeare@gmail.com"]
-  spec.description   = %q{ruby API wrapper for AgoraVoting.com}
+  spec.description   = %q{AgoraVoting API wrapper in Ruby}
   spec.summary       = %q{wrapper for a Liquid Voting software}
   spec.homepage      = ""
   spec.license       = "MIT"
