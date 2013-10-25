@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'agoravoting/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "agora-voting-rb"
+  spec.name          = "agoravoting-rb"
   spec.version       = Agoravoting::VERSION
   spec.authors       = ["Raimond Garcia", "Hector Perez"]
   spec.email         = ["hecpeare@gmail.com"]
