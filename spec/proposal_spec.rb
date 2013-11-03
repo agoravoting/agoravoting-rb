@@ -1,4 +1,4 @@
-require 'agoravoting/proposal'
+require 'agoravoting'
 describe Agoravoting::Proposal do
   it 'should setup all supported attributes' do
     attributes = {
