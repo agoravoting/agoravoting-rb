@@ -16,6 +16,15 @@ module Agoravoting
         raise response.inspect
       end
     end
+
+    def self.create(params = {})
+      response = Connection.new.post_request("agora", params)
+      if response.status == 201
+        resources(response)
+      else
+        raise response.inspect
+      end
+    end
     
     def self.resources(response)
       response.body.objects.map do |attributes|

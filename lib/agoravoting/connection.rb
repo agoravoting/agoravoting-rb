@@ -17,6 +17,14 @@ module Agoravoting
         req.headers['Content-Type'] = 'application/json'
       end
     end
+
+    def post_request(url, params = {})
+      connection.post do |req|
+        req.url url + "/"
+        req.headers['Content-Type'] = 'application/json'
+        req.body = params.to_json
+      end
+    end
         
     def api_url
       "http://localhost:8000/api/v1/"
