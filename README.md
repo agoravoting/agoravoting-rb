@@ -1,7 +1,7 @@
 # AgoraVoting-rb
 
 AgoraVoting API wrapper in Ruby
-* gem in standby because a problem in the API Authentication token of AgoraVoting
+* gem in standby because of a problem in the API Authentication token of AgoraVoting
 
 ## Installation
 
